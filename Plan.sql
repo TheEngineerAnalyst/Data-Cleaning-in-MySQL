@@ -1,6 +1,5 @@
 ## Data Cleaning
 
-# double click on 'world_layoffs' table so don't have to keep writing it out every timee (should be bolded if selected properly)
 select * 
 from layoffs;
 
@@ -18,5 +17,3 @@ from layoffs_staging;
 insert layoffs_staging #populate new table using raw data from OG dataset
 select *
 from layoffs;
-
-# NEVER work directly in raw dataset, that's why we make staging table
